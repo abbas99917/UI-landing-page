@@ -590,10 +590,14 @@ span{
     font-size: 14px;
 }
 
-.padd{
+.padd {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
-form > input{
+
+ input{
     padding: 10px;
     background-color: #dedede;
     border: none;
@@ -612,9 +616,10 @@ form > input{
     .subscribe{
     padding: 10px;
     }
-    /* .padd{
-;
-    } */
+    .padd{
+    flex-direction: column;
+
+    }
     
 }
 form{
